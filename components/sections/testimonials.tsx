@@ -249,15 +249,15 @@ export default function Testimonials() {
       subtitle="What our users are saying"
       className="max-w-8xl"
     >
-      <div className="relative mt-6 max-h-screen overflow-hidden">
-        <div className="gap-4 md:columns-2 xl:columns-3 2xl:columns-4">
+      <div className="relative mt-6 max-h-screen h-100 overflow-hidden">
+        <div className="gap-4 md:columns-2 xl:columns-3 2xl:columns-4 cursor-grab">
           {Array(Math.ceil(testimonials.length / 3))
             .fill(0)
             .map((_, i) => (
               <Marquee
                 vertical
                 key={i}
-                className={cn({
+                className={`cursor-grab` + cn({
                   "[--duration:60s]": i === 1,
                   "[--duration:30s]": i === 2,
                   "[--duration:70s]": i === 3,

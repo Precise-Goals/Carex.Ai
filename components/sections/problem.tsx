@@ -27,19 +27,19 @@ const problems = [
 export default function Component() {
   return (
     <Section
-      title="Problem"
+      title="What's Problem with current Healthcare ?"
       subtitle="Healthcare access shouldn't be difficult"
     >
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+      <div className="flexo items-top">
         {problems.map((problem, index) => (
           <BlurFade key={index} delay={0.2 + index * 0.2} inView>
-            <Card className="bg-background border-none shadow-none">
-              <CardContent className="p-6 space-y-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+            <Card className="flexocard">
+              <CardContent className="flexoCar">
+                <div className="w-15 h-15 bg-primary/10 rounded-full flex items-center justify-center">
                   <problem.icon className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold">{problem.title}</h3>
-                <p className="text-muted-foreground">{problem.description}</p>
+                <h3 className="flexh3">{problem.title}</h3>
+                <p className="flext">{problem.description}</p>
               </CardContent>
             </Card>
           </BlurFade>

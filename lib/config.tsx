@@ -5,7 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
-  name: "Doctor.ai",
+  name: "Carex",
   description: "AI-powered medical assistant with voice conversation",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
   keywords: ["Medical AI", "Voice Assistant", "Healthcare", "AI Doctor", "Medical Consultation"],

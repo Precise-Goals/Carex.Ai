@@ -46,11 +46,11 @@ const testimonials = [
 export default function Component() {
   return (
     <Section
-      title="Testimonial Highlight"
+      title="Carex Testimonial Highlights"
       subtitle="What our users are saying"
     >
       <Carousel>
-        <div className="max-w-2xl mx-auto relative">
+        <div className="max-w-2xl mx-auto relative cursor-grab">
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index}>

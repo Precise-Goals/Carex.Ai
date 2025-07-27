@@ -6,7 +6,7 @@ import { CgWebsite } from "react-icons/cg";
 
 export default function Footer() {
   return (
-    <footer className="border-t mt-20">
+    <footer className="border-t mt-20 py-10">
       <div className="max-w-6xl mx-auto py-8 px-5">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
@@ -33,9 +33,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="text-center mt-6">
+        <div className="text-center mt-6 ">
           <span className="text-sm text-muted-foreground">
-            Copyright © {new Date().getFullYear()}{" "}
+            Copyright © Made by Team Falcons - {new Date().getFullYear()}{" "}
             <Link href="/" className="hover:text-primary transition-colors">
               {siteConfig.name}
             </Link>

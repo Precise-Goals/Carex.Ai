@@ -17,10 +17,10 @@ export default function CtaSection() {
           href="/sign-up"
           className={cn(
             buttonVariants({ variant: "default" }),
-            "w-full sm:w-auto text-background flex gap-2"
+            "w-full sm:w-auto text-background flex gap-2 bg-black color-white transition-all duration-750 ease-in-out"
           )}
         >
-          <Icons.logo className="h-6 w-6" />
+          <Icons.logo className="h-6 w-6 " />
           Start a free consultation
         </Link>
       </div>

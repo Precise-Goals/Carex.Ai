@@ -9,7 +9,9 @@ import Logos from "@/components/sections/logos";
 import Pricing from "@/components/sections/pricing";
 import Problem from "@/components/sections/problem";
 import Solution from "@/components/sections/solution";
+// import SplineRat from "@/components/sections/SplineRat";
 import Testimonials from "@/components/sections/testimonials";
+// import SplineRat from "@/components/sections/SplineRat";
 import TestimonialsCarousel from "@/components/sections/testimonials-carousel";
 
 export default function Home() {
@@ -19,12 +21,12 @@ export default function Home() {
       <Hero />
       {/* <Logos /> */}
       <Problem />
-      <Solution />
+      {/* <Solution /> */}
       <HowItWorks />
-      <TestimonialsCarousel />
-      <Features />
-      <Testimonials />
       <Pricing />
+      <TestimonialsCarousel />
+      {/* <Features /> */}
+      <Testimonials />
       <FAQ />
       <CTA />
       <Footer />
