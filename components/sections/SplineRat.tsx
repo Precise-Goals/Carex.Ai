@@ -3,8 +3,8 @@
 import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 
-// Dynamically import Spline to avoid SSR issues
-const Spline = dynamic(() => import("@splinetool/react-spline/next"), {
+// Dynamically import Spline with proper error handling
+const Spline = dynamic(() => import("@splinetool/react-spline"), {
   ssr: false,
   loading: () => (
     <div className="flex items-center justify-center h-full bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -52,8 +52,10 @@ const SplineRat: React.FC = () => {
         <div className="text-center">
           <div className="text-4xl mb-4">⚠️</div>
           <h3 className="text-xl font-semibold text-gray-700 mb-2">
+            3D Scene Unavailable
           </h3>
           <p className="text-gray-500">
+            The interactive 3D scene is currently unavailable.
           </p>
         </div>
       </div>
