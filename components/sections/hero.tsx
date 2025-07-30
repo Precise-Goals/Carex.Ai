@@ -102,7 +102,11 @@ function HeroCTA() {
   return (
     <>
       <motion.div
+<<<<<<< HEAD
         className="mx-auto mt-6 flex w-full max-w-2xl flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+=======
+        className="dbtn mx-auto mt-6 flex w-full max-w-2xl flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+>>>>>>> 3b9121cbd8d32815f6e881aa17ca5bcaa56c6e91
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}

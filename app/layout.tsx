@@ -1,6 +1,7 @@
 import { type Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 
+<<<<<<< HEAD
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Provider from "./provider";
@@ -14,6 +15,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+=======
+import "./globals.css";
+import Provider from "./provider";
+
+>>>>>>> 3b9121cbd8d32815f6e881aa17ca5bcaa56c6e91
 
 export const metadata: Metadata = {
   title: "Carex Ai | Falcons",
@@ -64,7 +70,10 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
+<<<<<<< HEAD
           className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+=======
+>>>>>>> 3b9121cbd8d32815f6e881aa17ca5bcaa56c6e91
           suppressHydrationWarning={true}
         >
           <Provider>{children}</Provider>

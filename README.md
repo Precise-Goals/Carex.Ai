@@ -12,9 +12,12 @@
 
 Carex AI is a cutting-edge medical consultation platform that leverages artificial intelligence to provide real-time voice conversations with specialized medical AI agents. Built with modern web technologies, it offers an intuitive interface for users to discuss health concerns and receive AI-powered medical guidance.
 
+<<<<<<< HEAD
 ## 🎯 Demo
 
 [![Carex AI Demo](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://imagekit.io/player/embed/rmyd10ywi/Recording%202025-06-29%20204016.mp4?updatedAt=1751212929355&thumbnail=https%3A%2F%2Fik.imagekit.io%2Frmyd10ywi%2FRecording%25202025-06-29%2520204016.mp4%2Fik-thumbnail.jpg%3FupdatedAt%3D1751212929355&updatedAt=1751212929355)
+=======
+>>>>>>> 3b9121cbd8d32815f6e881aa17ca5bcaa56c6e91
 
 ## ✨ Features
 
