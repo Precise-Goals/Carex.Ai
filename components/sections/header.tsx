@@ -50,7 +50,6 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <hr className="divider" />
       </header>
     );
   }
@@ -92,7 +91,6 @@ export default function Header() {
           </div>
         </div> */}
       </div>
-      <hr className={`divider ${addBorder ? "visible" : ""}`} />
-    </header>
+        </header>
   );
 }
