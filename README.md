@@ -12,12 +12,6 @@
 
 Carex AI is a cutting-edge medical consultation platform that leverages artificial intelligence to provide real-time voice conversations with specialized medical AI agents. Built with modern web technologies, it offers an intuitive interface for users to discuss health concerns and receive AI-powered medical guidance.
 
-<<<<<<< HEAD
-## 🎯 Demo
-
-[![Carex AI Demo](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://imagekit.io/player/embed/rmyd10ywi/Recording%202025-06-29%20204016.mp4?updatedAt=1751212929355&thumbnail=https%3A%2F%2Fik.imagekit.io%2Frmyd10ywi%2FRecording%25202025-06-29%2520204016.mp4%2Fik-thumbnail.jpg%3FupdatedAt%3D1751212929355&updatedAt=1751212929355)
-=======
->>>>>>> 3b9121cbd8d32815f6e881aa17ca5bcaa56c6e91
 
 ## ✨ Features
 
@@ -97,69 +91,69 @@ Carex AI is a cutting-edge medical consultation platform that leverages artifici
 
 ```
 carex-ai/
-├── 📁 app/                          # Next.js App Router
-│   ├── 📁 (auth)/                   # Authentication routes
-│   │   ├── sign-in/                 # Sign in pages
-│   │   └── sign-up/                 # Sign up pages
-│   ├── 📁 (routes)/                 # Protected routes
-│   │   └── dashboard/               # Main dashboard
-│   │       ├── 📁 _components/      # Dashboard components
-│   │       │   ├── AppHeader.tsx    # Dashboard header
-│   │       │   ├── AddNewSession.tsx # Session creation
-│   │       │   ├── DoctorsList.tsx  # AI doctors list
-│   │       │   ├── HistoryList.tsx  # Session history
-│   │       │   └── drawer.tsx       # Mobile navigation
-│   │       └── 📁 medical-agent/    # Voice conversation
-│   │           ├── 📁 [sessionId]/  # Dynamic session pages
-│   │           ├── 📁 components/   # Voice components
-│   │           │   ├── AudioProcessor.tsx
-│   │           │   ├── ConversationManager.tsx
-│   │           │   ├── TextToSpeech.tsx
-│   │           │   └── VoiceRecordButton.tsx
-│   │           └── 📁 services/     # API services
-│   ├── 📁 api/                      # API routes
-│   │   ├── chat/                    # Chat endpoints
-│   │   ├── session-chat/            # Session management
-│   │   ├── suggest-doctors/         # Doctor suggestions
-│   │   ├── transcribe/              # Speech transcription
-│   │   ├── tts/                     # Text-to-speech
-│   │   └── users/                   # User management
-│   ├── globals.css                  # Global styles
-│   ├── layout.tsx                   # Root layout
-│   ├── page.tsx                     # Home page
-│   └── provider.tsx                 # Context providers
-├── 📁 components/                   # Shared components
-│   ├── 📁 ui/                       # UI components
-│   │   ├── button.tsx
-│   │   ├── dialog.tsx
-│   │   ├── input.tsx
-│   │   └── ...
-│   ├── 📁 sections/                 # Page sections
-│   │   ├── header.tsx
-│   │   ├── hero.tsx
-│   │   ├── features.tsx
-│   │   ├── pricing.tsx
-│   │   └── ...
-│   └── 📁 magicui/                  # Advanced UI components
-├── 📁 lib/                          # Utility libraries
-│   ├── 📁 hooks/                    # Custom hooks
-│   ├── 📁 generated/                # Generated files
-│   ├── config.tsx                   # App configuration
-│   └── utils.ts                     # Utility functions
-├── 📁 prisma/                       # Database schema
-│   ├── schema.prisma               # Database schema
-│   └── 📁 migrations/              # Database migrations
-├── 📁 public/                       # Static assets
-│   ├── 📁 fonts/                   # Custom fonts
-│   ├── carex.splinecode            # 3D scene file
-│   └── ...                         # Images and icons
-├── 📁 context/                      # React contexts
-├── 📁 shared/                       # Shared utilities
-├── middleware.ts                    # Next.js middleware
-├── next.config.ts                   # Next.js configuration
-├── tailwind.config.ts              # Tailwind configuration
-├── tsconfig.json                   # TypeScript configuration
-└── package.json                    # Dependencies
+├── 📁 app/                          # Next.js App Router
+│   ├── 📁 (auth)/                   # Authentication routes
+│   │   ├── sign-in/                 # Sign in pages
+│   │   └── sign-up/                 # Sign up pages
+│   ├── 📁 (routes)/                 # Protected routes
+│   │   └── dashboard/               # Main dashboard
+│   │       ├── 📁 _components/      # Dashboard components
+│   │       │   ├── AppHeader.tsx    # Dashboard header
+│   │       │   ├── AddNewSession.tsx # Session creation
+│   │       │   ├── DoctorsList.tsx  # AI doctors list
+│   │       │   ├── HistoryList.tsx  # Session history
+│   │       │   └── drawer.tsx       # Mobile navigation
+│   │       └── 📁 medical-agent/    # Voice conversation
+│   │           ├── 📁 [sessionId]/  # Dynamic session pages
+│   │           ├── 📁 components/   # Voice components
+│   │           │   ├── AudioProcessor.tsx
+│   │           │   ├── ConversationManager.tsx
+│   │           │   ├── TextToSpeech.tsx
+│   │           │   └── VoiceRecordButton.tsx
+│   │           └── 📁 services/     # API services
+│   ├── 📁 api/                      # API routes
+│   │   ├── chat/                    # Chat endpoints
+│   │   ├── session-chat/            # Session management
+│   │   ├── suggest-doctors/         # Doctor suggestions
+│   │   ├── transcribe/              # Speech transcription
+│   │   ├── tts/                     # Text-to-speech
+│   │   └── users/                   # User management
+│   ├── globals.css                  # Global styles
+│   ├── layout.tsx                   # Root layout
+│   ├── page.tsx                     # Home page
+│   └── provider.tsx                 # Context providers
+├── 📁 components/                   # Shared components
+│   ├── 📁 ui/                       # UI components
+│   │   ├── button.tsx
+│   │   ├── dialog.tsx
+│   │   ├── input.tsx
+│   │   └── ...
+│   ├── 📁 sections/                 # Page sections
+│   │   ├── header.tsx
+│   │   ├── hero.tsx
+│   │   ├── features.tsx
+│   │   ├── pricing.tsx
+│   │   └── ...
+│   └── 📁 magicui/                  # Advanced UI components
+├── 📁 lib/                          # Utility libraries
+│   ├── 📁 hooks/                    # Custom hooks
+│   ├── 📁 generated/                # Generated files
+│   ├── config.tsx                   # App configuration
+│   └── utils.ts                     # Utility functions
+├── 📁 prisma/                       # Database schema
+│   ├── schema.prisma               # Database schema
+│   └── 📁 migrations/              # Database migrations
+├── 📁 public/                       # Static assets
+│   ├── 📁 fonts/                   # Custom fonts
+│   ├── carex.splinecode            # 3D scene file
+│   └── ...                         # Images and icons
+├── 📁 context/                      # React contexts
+├── 📁 shared/                       # Shared utilities
+├── middleware.ts                    # Next.js middleware
+├── next.config.ts                   # Next.js configuration
+├── tailwind.config.ts              # Tailwind configuration
+├── tsconfig.json                   # TypeScript configuration
+└── package.json                    # Dependencies
 ```
 
 ## 🚀 Getting Started
@@ -174,64 +168,64 @@ carex-ai/
 
 1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/your-username/carex-ai.git
-   cd carex-ai
-   ```
+   ```bash
+   git clone https://github.com/your-username/carex-ai.git
+   cd carex-ai
+   ```
 
 2. **Install dependencies**
 
-   ```bash
-   # Using Bun (recommended)
-   bun install
+   ```bash
+   # Using Bun (recommended)
+   bun install
 
-   # Or using npm
-   npm install
-   ```
+   # Or using npm
+   npm install
+   ```
 
 3. **Set up environment variables**
 
-   ```bash
-   cp .env.example .env.local
-   ```
+   ```bash
+   cp .env.example .env.local
+   ```
 
-   Fill in your environment variables:
+   Fill in your environment variables:
 
-   ```env
-   # Database
-   DATABASE_URL="postgresql://username:password@localhost:5432/carex_ai"
+   ```env
+   # Database
+   DATABASE_URL="postgresql://username:password@localhost:5432/carex_ai"
 
-   # Authentication (Clerk)
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-   CLERK_SECRET_KEY=your_clerk_secret_key
+   # Authentication (Clerk)
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+   CLERK_SECRET_KEY=your_clerk_secret_key
 
-   # AI Services
-   OPEN_ROUTER_API_KEY=your_openrouter_api_key
-   NEXT_PUBLIC_ASSEMBLYAI_API_KEY=your_assemblyai_api_key
-   MURF_API_KEY=your_murf_api_key
+   # AI Services
+   OPEN_ROUTER_API_KEY=your_openrouter_api_key
+   NEXT_PUBLIC_ASSEMBLYAI_API_KEY=your_assemblyai_api_key
+   MURF_API_KEY=your_murf_api_key
 
-   # App Configuration
-   NEXT_PUBLIC_APP_URL=http://localhost:3000
-   ```
+   # App Configuration
+   NEXT_PUBLIC_APP_URL=http://localhost:3000
+   ```
 
 4. **Set up the database**
 
-   ```bash
-   # Generate Prisma client
-   bun run prisma generate
+   ```bash
+   # Generate Prisma client
+   bun run prisma generate
 
-   # Run migrations
-   bun run prisma migrate dev
-   ```
+   # Run migrations
+   bun run prisma migrate dev
+   ```
 
 5. **Start the development server**
 
-   ```bash
-   bun run dev
-   ```
+   ```bash
+   bun run dev
+   ```
 
 6. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 🔧 Usage
 
@@ -342,3 +336,5 @@ docker run -p 3000:3000 carex-ai
 [![GitHub forks](https://img.shields.io/github/forks/your-username/carex-ai?style=social)](https://github.com/your-username/carex-ai)
 [![GitHub issues](https://img.shields.io/github/issues/your-username/carex-ai)](https://github.com/your-username/carex-ai/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/your-username/carex-ai)](https://github.com/your-username/carex-ai/pulls)
+
+this is my crm report for my project so remember the context for this chat
